@@ -60,36 +60,30 @@ The app uses **autocorrelation** for pitch detection:
 
 ## Getting Started
 
-### Prerequisites
-
-- Node.js (v14 or higher)
-- npm or yarn
-- A device with microphone access
-- Modern web browser with Web Audio API support
 
 ### Installation
 
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd vocal-pitch-detector
+git clone [<repository-url>](https://github.com/Ritikchauhan1704/pitchDetector.git)
+cd pitchDetector
 ```
 
 2. Install dependencies:
 ```bash
 npm install
 # or
-yarn install
+bun install
 ```
 
 3. Start the development server:
 ```bash
-npm start
+npm dev
 # or
-yarn start
+bun dev
 ```
 
-4. Open your browser and navigate to `http://localhost:3000`
+4. Open your browser and navigate to `http://localhost:5173`
 
 ### Dependencies
 
